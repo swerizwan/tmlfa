@@ -1,14 +1,14 @@
-# Body Language Estimation in Interviews Using Human Mesh Reconstruction
+# A Transformer-Based Framework for Multi-Task Face Analysis via Multi-Level Fusion and Attention
 
 <img src="https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" alt="Oryx Video-ChatGPT" data-canonical-src="https://i.imgur.com/waxVImv.png" style="max-width: 100%;">
 
 # Overview
 
-This paper introduces a Pyramid-based Mesh Refinement Reconstruction (PMRR) method for accurately reconstructing 3D human meshes from single images, crucial for analyzing body language in interviews. PMRR employs a feature pyramid to enhance neural network predictions, improving mesh-image alignment. It incorporates high-resolution features and pixel-wise supervision to reduce estimation errors. Validated on COCO and 3DPW datasets, PMRR demonstrates superior performance in mesh reconstruction, making it ideal for non-verbal communication studies.
+We propose TMLFA, a transformer-based framework for simultaneous facial expression recognition, gender and age estimation, and face attribute analysis. Using a swin transformer, TMLFA extracts facial features, enhanced by a Multi-Level Feature Fusion (MLFF) module and Channel Attention (CA) to highlight key facial details. The Multi-Level Channel Attention (MLCA) ensures efficient task-specific information propagation. Experiments on MS-Celeb-1M, RAF-DB, IMDB+WIKI, and CelebA datasets show that TMLFA outperforms existing methods in facial attribute recognition and estimation tasks.
 
 # 👁️💬 Architecture
 
-The comprehensive pipeline of the RealMock framework.
+The comprehensive pipeline of the TMLFA framework.
 
 <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/architecture.jpg" alt="PMRR Overview">
 
