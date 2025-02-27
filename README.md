@@ -10,7 +10,7 @@ We propose TMLFA, a transformer-based framework for simultaneous facial expressi
 
 The comprehensive pipeline of the TMLFA framework.
 
-<img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/architecture.jpg" alt="PMRR Overview">
+<img style="max-width: 100%;" src="https://github.com/swerizwan/tmlfa/blob/main/resources/architecture.jpg" alt="PMRR Overview">
 
 # PMRR Environment Setup
 
